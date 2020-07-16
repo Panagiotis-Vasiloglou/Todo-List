@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Todo App</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+			integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body>
+		<header><h1>My Todo List</h1></header>
+		<main>
+			<section class="input-container">
+				<form>
+					<input
+						required
+						type="text"
+						class="input"
+						placeholder="Type something..."
+					/>
+					<button class="btn" type="button">
+						<i class="fas fa-plus-circle"></i>
+					</button>
+				</form>
+			</section>
+
+			<section class="todo-container">
+				<ul class="todo-UL"></ul>
+			</section>
+		</main>
+
+		<script src="app.js"></script>
+	</body>
+</html>

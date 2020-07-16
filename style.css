@@ -1,0 +1,162 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(
+        to right,
+        #2e171a 10%,
+        #222426 89%,
+        #222426 100%
+    );
+}
+
+/* Form */
+
+header {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+header,
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+input {
+    width: 60%;
+}
+
+input,
+button {
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+button {
+    transition: all 300ms ease-in;
+    color: #2e171a;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e171a;
+    color: white;
+}
+
+/* Todo */
+
+.todo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-UL {
+    list-style: none;
+    width: 80%;
+}
+
+.new-todo-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    min-width: 80%;
+    margin: 0.5rem;
+}
+
+.todo-LI {
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+.check {
+    color: green;
+}
+
+.check:hover {
+    background-color: green;
+}
+
+.delete {
+    color: red;
+}
+
+.delete:hover {
+    background-color: red;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 700px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 34px;
+    }
+}
